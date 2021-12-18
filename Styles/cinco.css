@@ -1,0 +1,76 @@
+*{
+
+    background-color:olive;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+.q{
+
+    text-align: center;
+    font-size: 4rem;
+    animation: 1s t 1;
+}
+
+@keyframes t{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+main{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr  ;
+}
+
+.r{
+    width: 90%;
+    height: 180px;
+    background-color:olive;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 15px double darkorange;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+@keyframes p{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.w{
+    width: 200px;
+        height: 300px;
+    display:block;
+    animation: 5s z 1; 
+}
+
+@keyframes z{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+
+.fo{
+
+    text-align: right;
+}

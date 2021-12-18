@@ -1,0 +1,262 @@
+*{
+
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+.cab{
+
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.sec
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+.sec-p{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    animation: 3s apa 1;
+}
+
+@keyframes apa{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.p1{
+    background-color:plum;
+    font-size: 3rem;
+}
+
+.p2{
+    background-color:aquamarine;
+    font-size: 2rem;
+
+}
+
+.p3{
+    background-color:paleturquoise;
+    font-size: 2rem;
+}
+
+.p4{
+    background-color:pink;
+    font-size: 2rem;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 30fr 50fr 30fr;
+    
+}
+
+.mac{
+
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    
+}
+
+li{
+
+    list-style: none;
+}
+
+.mac-n{
+
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 20px 20px 30px black;
+    transition: all 1s;
+    animation: 2s n alternate-reverse;
+}
+
+.mac-n:hover{
+
+    transform: scale(1);
+}
+
+.n1{
+
+    background-color:lightgreen;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.n2{
+
+    background-color:lightpink;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.n3{
+
+    background-color:lightskyblue;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.n4{
+
+    background-color:mediumaquamarine;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.n5{
+
+    background-color:palegoldenrod;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.n6{
+
+    background-color:plum;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ig{
+
+    background-color:white;
+}
+
+.cu{
+
+    background-color:white;
+
+}
+
+img{
+
+    display:block;
+    margin:auto;
+    padding-top: 60px;
+    width: 70%;
+    height: 70%;
+    animation: 10s img 1;
+
+}
+
+@keyframes img{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.uno{
+
+    background-color:plum;
+    text-align: center;
+    font-size: 5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+.dos{
+
+    background-color:rgb(130, 204, 238);
+    text-align: center;
+    font-size: 4.5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+.tres{
+
+    background-color:plum;
+    text-align: center;
+    font-size: 5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+.cuatro{
+
+    background-color:rgb(130, 204, 238);
+    text-align: center;
+    font-size: 5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+.cinco{
+
+    background-color:plum;
+    text-align: center;
+    font-size: 5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+.seis{
+
+    background-color:rgb(130, 204, 238);
+    text-align: center;
+    font-size: 5rem;
+    animation: 2s n alternate-reverse;
+
+}
+
+
+@keyframes n{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.fo{
+
+    text-align: right;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

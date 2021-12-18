@@ -1,0 +1,141 @@
+*{
+
+    background-color: palegoldenrod;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+.ci{
+
+    text-align: center;
+    font-size: 4rem;
+    animation: 1s t 1;
+}
+
+@keyframes t{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+
+.k{
+
+    background-color: palegoldenrod;
+    width: 95%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.q1{
+
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px double orangered;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+.q2{
+
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px double orangered;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+.q3{
+    
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px double orangered;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+.q4{
+
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px double orangered;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+@keyframes p{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.s{
+
+    background-color: palegoldenrod;
+
+}
+
+div.s{
+
+    display: grid;
+    gap: 200px;
+    grid-template-columns: 1fr 1fr ;
+    
+
+}
+
+.m1{
+
+    padding-left: 230px;
+    display:block;  
+    width: 70%;
+    animation: 5s m1 1;
+}
+
+@keyframes m1{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.m2{
+
+    display:block;
+    width: 70%;
+    animation: 5s m2 1;
+}
+
+@keyframes m2{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+
+.fo{
+
+    text-align: right;
+}

@@ -1,0 +1,114 @@
+
+    *{
+
+        background-color:turquoise;
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+        
+    }
+
+    .tit{
+
+        text-align: center;
+        font-size: 4rem;
+        animation: 1s t 1;
+
+    }
+
+    @keyframes t{
+
+        from{
+            transform: scale(0);
+        } to{
+    
+            transform: scale(1);
+        }
+    }
+
+    main{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+    }
+
+    .tod{
+
+    padding: 0;
+    margin: 0;
+    background-color:turquoise;
+    }
+
+    .xot{
+    padding: 0;
+    margin: 0;
+    background-color:turquoise;
+    }
+
+    .sec-c{
+
+        width: 85%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        animation: 3s sec 1;
+        border: 20px double yellow;
+        margin: 40px;
+        padding: 40px 40px 40px 30px;
+    }
+
+    @keyframes sec{
+
+        from{
+            transform: scale(0);
+        } to{
+    
+            transform: scale(1);
+        }
+    }
+
+    .c1{
+
+    
+    text-align:left;
+    font-size: 2rem;
+    }
+
+    .c2{
+
+        text-align:left;
+        font-size: 2rem;
+    }
+
+    .c3{
+
+    text-align:left;
+    font-size: 2rem;
+    }
+
+    img{
+
+        display:block;
+        margin:auto;
+        width: 800px;
+        height: 700px;
+        border-radius: 900px;
+        animation: 5s m 1;
+        
+        
+    }
+
+    @keyframes m{
+
+        from{
+            transform: scale(0);
+        } to{
+    
+            transform: scale(1);
+        }
+    }
+
+    .fo{
+
+        text-align: right;
+    }

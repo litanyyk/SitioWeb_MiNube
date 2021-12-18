@@ -1,0 +1,121 @@
+*{
+
+    background-color:powderblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+.ñ{
+
+    text-align: center;
+    font-size: 4rem;
+    animation: 1s t 1;
+}
+
+@keyframes t{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+main{
+
+    display: grid;
+    grid-template-rows: 0fr 1fr 1fr 1fr ;
+}
+
+.co{
+
+    width: 85%;
+    height: 85%;
+    background-color:powderblue;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px double mediumvioletred;
+    margin: 40px;
+    padding: 40px 40px 40px 30px;
+    animation: 3s p 1;
+}
+
+@keyframes p{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.pa{
+
+    background-color:powderblue;
+    display:block;
+    margin:auto;
+    padding-left: 100px;
+    animation: 4s pa 1;
+
+}
+
+@keyframes pa{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+
+.ca{
+
+    background-color:powderblue;
+    display:block;
+    margin:auto;
+    padding-top: 5px;
+    padding-left: 100px;
+    animation: 6s ca 1;
+
+}
+@keyframes ca{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+
+.wa{
+
+    background-color:powderblue;
+    display:block;
+    margin:auto;
+    padding-top: 5px;
+    padding-left: 30px;
+    animation: 8s wa 1;
+}
+
+@keyframes wa{
+
+    from{
+        transform: scale(0);
+    } to{
+
+        transform: scale(1);
+    }
+}
+
+.fo{
+
+    text-align: right;
+}
